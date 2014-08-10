@@ -1,0 +1,21 @@
+@relation weka
+
+@attribute acc_gx numeric
+@attribute acc_gy numeric
+@attribute acc_gz numeric
+@attribute mag_x numeric
+@attribute mag_y numeric
+@attribute mag_z numeric
+@attribute ori_x numeric
+@attribute ori_y numeric
+@attribute ori_z numeric
+@attribute longitude numeric
+@attribute latitude numeric
+@attribute state {' study',' walk',' eat',' run','  drive','Unknown'}
+
+@data
+-4.237953186035156,2.3544185161590576,8.78982925415039,18.4375,-10.0,-38.125,266.03125,-12.46875,-22.96875,0,0,'Unknown'
+-2.1974573135375977,3.1392245292663574,9.57463550567627,22.25,-16.75,-33.25,233.625,-12.953125,-14.28125,0,0,'Unknown'
+-0.15696123242378235,2.3544185161590576,9.96703815460205,15.4375,-15.5625,-39.25,254.0,-13.203125,-0.84375,0,0,'Unknown'
+-0.15696123242378235,2.8253021240234375,9.810076713562012,15.125,-14.875,-38.125,257.75,-16.71875,-0.84375,0,0,'Unknown'
+0.0,3.4531471729278564,9.103751182556152,14.9375,-16.6875,-38.875,257.890625,-20.734375,0.0,0,0,'Unknown'
